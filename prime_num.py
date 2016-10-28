@@ -1,13 +1,10 @@
 def prime_number_gen(n):
-    if n < 2: 
-         return False;
-    if n % 2 == 0:             
-         return n == 2  
-    k = 3
-    while k*k <= n:
-         if n % k == 0:
-             return False
-         k += 2
-    return True
-    
-print prime_number_gen(89)
+    lower = 900
+    upper = 1000
+    for num in range(lower,upper + 1): # prime numbers are greater than 1
+        if num > 1:
+            for i in range(2,num):
+                if (num % i) == 0:
+                    break
+        else:
+        print(num)
