@@ -1,4 +1,4 @@
-def is_prime(n):
+def prime_number_gen(n):
     if n < 2: 
          return False;
     if n % 2 == 0:             
