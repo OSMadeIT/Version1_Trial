@@ -9,3 +9,5 @@ def prime_number_gen(n):
              return False
          k += 2
     return True
+    
+print prime_number_gen(89)
