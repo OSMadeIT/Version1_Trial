@@ -1,4 +1,4 @@
-def prime_number_gen(n):
+def prime_number_gen(num):
     lower = 900
     upper = 1000
     for num in range(lower,upper + 1): # prime numbers are greater than 1
